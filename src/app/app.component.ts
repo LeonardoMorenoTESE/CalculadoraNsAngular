@@ -30,7 +30,7 @@ export class AppComponent {
             this.result = eval(this.operation.replace("X","*"));
             console.log(this.result);
         }catch(e){
-            console.error("No puedo Evaluar la expresion!");
+            console.error("No quiero Evaluar la expresion!");
             dialogs.alert({title: 'Error', message: 'No puedo evaluar la expresion!', okButtonText: 'OK'});
         }
     }
